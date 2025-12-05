@@ -2,7 +2,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
-// immagini radio
 import Radio1 from "../assets/images/2a.png";
 import Radio2 from "../assets/images/2b.png";
 import Radio3 from "../assets/images/2c.png";

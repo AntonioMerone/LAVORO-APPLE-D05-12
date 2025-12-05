@@ -1,4 +1,3 @@
-// src/components/FooterSection.jsx
 function FooterSection() {
   return (
     <footer className="footer-section">

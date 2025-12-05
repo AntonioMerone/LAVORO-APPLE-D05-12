@@ -7,7 +7,6 @@ function DesktopTopBar() {
   return (
     <header className="desktop-topbar border-bottom border-secondary">
       <Container fluid className="d-flex align-items-center py-2">
-        {/* controlli finti a sinistra */}
         <div className="d-flex align-items-center gap-2 me-4">
           <Button
             variant="outline-light"
@@ -42,7 +41,7 @@ function DesktopTopBar() {
           />
         </div>
 
-        {/* slider volume finto */}
+        {/* slider volume  */}
         <div className="me-4 d-none d-lg-block">
           <div className="volume-bar"></div>
         </div>

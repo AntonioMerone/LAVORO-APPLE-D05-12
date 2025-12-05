@@ -10,6 +10,7 @@ import NewReleasesSection from "./components/NewReleasesSection";
 import ExploreSection from "./components/ExploreSection";
 import FooterSection from "./components/FooterSection";
 import MiniPlayer from "./components/MiniPlayer";
+import MusicaLogo from "./assets/logos/music.svg";
 
 import "./App.css";
 

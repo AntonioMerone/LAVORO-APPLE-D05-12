@@ -10,13 +10,12 @@ function NewReleasesSection() {
   useEffect(() => {
     const fetchNewReleases = async () => {
       try {
-        // 🔴 Usa l'endpoint Deezer / proxy del corso se diverso
         const res = await fetch(
           "https://striveschool-api.herokuapp.com/api/deezer/search?q=eminem"
         );
         if (!res.ok) throw new Error("Errore Deezer");
         const data = await res.json();
-        setTracks(data.data.slice(0, 6)); // 2 righe * 3 card = 6
+        setTracks(data.data.slice(0, 6));
       } catch (err) {
         console.error(err);
       }

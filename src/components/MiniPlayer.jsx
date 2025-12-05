@@ -1,4 +1,3 @@
-// src/components/MiniPlayer.jsx
 import Button from "react-bootstrap/Button";
 
 function MiniPlayer() {

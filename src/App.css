@@ -57,7 +57,7 @@
   font-weight: 700;
 }
 
-/* hero */
+/* testi hero */
 .hero-label {
   font-size: 10px;
   font-weight: 600;
@@ -71,13 +71,11 @@
   margin-bottom: 8px;
 }
 
-.hero-card {
-  border: none;
-  overflow: hidden;
-  border-radius: 12px;
+.hero-card img {
+  border-radius: 16px;
 }
 
-/* sezioni */
+/* sezione titoli */
 .section-header {
   display: flex;
   align-items: center;
@@ -94,7 +92,7 @@
   color: #a3a3a3;
 }
 
-/* radio */
+/* card radio */
 .radio-card {
   border: none;
   background-color: transparent;
@@ -107,6 +105,7 @@
 .radio-title {
   font-size: 11px;
   margin-top: 4px;
+  color: #f5f5f5;
 }
 
 /* nuove uscite */

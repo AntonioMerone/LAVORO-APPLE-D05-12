@@ -8,9 +8,9 @@ function Sidebar() {
     <aside className="bg-black text-light sidebar-desktop">
       <Container fluid className="py-3">
         {/* Logo */}
-        <div className="mb-4">
-          <span className="apple-logo-sidebar"></span>
-          <span className="ms-1 fw-semibold">Music</span>
+        <div className="mb-4 d-flex align-items-center gap-2">
+          <i className="bi bi-apple fs-4 sidebar-apple-icon"></i>
+          <span className="fw-semibold">Music</span>
         </div>
 
         {/* Search */}

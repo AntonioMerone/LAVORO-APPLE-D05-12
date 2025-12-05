@@ -34,16 +34,103 @@
   font-weight: 600;
 }
 
-/* topbar desktop */
-.desktop-topbar {
-  background-color: #1f1f1f;
+/* Icona Apple */
+.sidebar-apple-icon {
+  color: #ffffff;
+  font-size: 22px;
 }
 
+/* TOPBAR DESKTOP */
+.desktop-topbar {
+  background-color: #121212;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* BOTTONI FRECCE */
+.topbar-icon-btn {
+  background: #1f1f1f;
+  border: none;
+  color: #d0d0d0;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.topbar-icon-btn:hover {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+.topbar-icon-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* SEARCH CENTRALE */
+.topbar-search {
+  background-color: #1f1f1f;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.topbar-search-icon {
+  color: #a3a3a3;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.topbar-search-input {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.topbar-search-input::placeholder {
+  color: #7b7b7b;
+}
+
+.topbar-search-input:focus {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* BARRA VOLUME */
 .volume-bar {
   width: 120px;
   height: 4px;
   border-radius: 999px;
-  background: linear-gradient(to right, #fff 40%, #555 40%);
+  background: linear-gradient(to right, #ffffff 40%, #555555 40%);
+}
+
+/* BOTTONE "Accedi" */
+.topbar-login-btn {
+  background-color: #ff375f;
+  border: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.topbar-login-btn:hover {
+  filter: brightness(1.05);
+}
+
+.topbar-login-btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /* contenuto principale */
@@ -173,23 +260,79 @@
   margin-bottom: 6px;
 }
 
-/* mini player */
-.mini-player {
+/* MINI PLAYER */
+
+/* WRAPPER */
+.mini-player-wrapper {
   position: sticky;
   bottom: 0;
   width: 100%;
+  padding: 8px 8px 12px;
+  background: linear-gradient(to top, #000 40%, transparent);
+  z-index: 50;
+}
+
+/* BARRA PRINCIPALE */
+.mini-player-bar {
+  background-color: #171717;
+  border-radius: 18px;
   padding: 8px 12px;
-  background-color: #111;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
 }
 
-.mini-player-icon {
-  font-size: 18px;
+/* COVER */
+.mini-player-cover {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b3b3b3;
 }
 
-.mini-player-btn {
-  border-color: #fff;
-  color: #fff;
+.mini-player-note {
+  font-size: 22px;
+}
+
+/* CONTROLLI */
+.mini-player-controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* bottoni e icone grigieE */
+.mini-player-icon-btn {
+  background: transparent !important;
+  border: none !important;
+  color: #b3b3b3 !important;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-player-icon-btn i {
+  font-size: 20px;
+}
+
+.mini-player-icon-btn:hover {
+  color: #e6e6e6 !important;
+}
+
+.mini-player-icon-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.player-play i {
+  font-size: 24px !important;
+  color: #ffffff !important;
 }

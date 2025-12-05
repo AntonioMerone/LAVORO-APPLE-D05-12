@@ -1,0 +1,65 @@
+/* NAVBAR GENERALE */
+.apple-navbar {
+  background: #2f2f2f !important;
+  height: 56px;
+  padding: 0;
+}
+
+/*  tre colonne*/
+.apple-navbar-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  height: 100%;
+  padding: 0 32px !important;
+  position: relative;
+}
+
+/* HAMBURGER BUTTON */
+.menu-btn {
+  background: transparent;
+  border: none;
+  padding: 6px 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+.menu-bar {
+  width: 26px;
+  height: 3px;
+  background: #ff375f;
+  border-radius: 999px;
+}
+
+/* LOGO Music CENTRATO */
+.navbar-brand-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.apple-logo {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.brand-text {
+  font-size: 20px;
+}
+
+/* "Accedi" a destra */
+.navbar-login {
+  color: #ff375f;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}

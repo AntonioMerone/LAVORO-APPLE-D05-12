@@ -1,0 +1,196 @@
+/* sfondo globale */
+.app-root {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.app-root {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+/* sidebar desktop */
+.sidebar-desktop {
+  width: 240px;
+  min-height: 100vh;
+}
+
+.sidebar-search {
+  background-color: #1f1f1f;
+  border: none;
+  color: #fff;
+}
+
+.sidebar-link {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  padding-left: 0;
+}
+
+.sidebar-link.active {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* topbar desktop */
+.desktop-topbar {
+  background-color: #1f1f1f;
+}
+
+.volume-bar {
+  width: 120px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #fff 40%, #555 40%);
+}
+
+/* contenuto principale */
+.main-container {
+  background-color: #000;
+}
+
+/* titoli */
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* hero */
+.hero-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #a3a3a3;
+}
+
+.hero-title {
+  font-size: 13px;
+  color: #f5f5f5;
+  margin-bottom: 8px;
+}
+
+.hero-card {
+  border: none;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* sezioni */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-arrow {
+  font-size: 20px;
+  color: #a3a3a3;
+}
+
+/* radio */
+.radio-card {
+  border: none;
+  background-color: transparent;
+}
+
+.radio-card img {
+  border-radius: 12px;
+}
+
+.radio-title {
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+/* nuove uscite */
+.song-card {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.song-cover-wrapper {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.song-cover-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.song-title {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+.song-artist {
+  font-size: 10px;
+  color: #a3a3a3;
+}
+
+/* Altro da esplorare */
+.explore-item {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ff3b5c;
+  font-size: 14px;
+}
+
+.explore-arrow {
+  font-size: 18px;
+}
+
+/* footer */
+.footer-section {
+  padding: 16px;
+  background-color: #111;
+  font-size: 10px;
+  color: #a3a3a3;
+}
+
+.footer-langs {
+  margin-bottom: 4px;
+}
+
+.footer-copy {
+  margin-bottom: 6px;
+}
+
+/* mini player */
+.mini-player {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 8px 12px;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mini-player-icon {
+  font-size: 18px;
+}
+
+.mini-player-btn {
+  border-color: #fff;
+  color: #fff;
+}
